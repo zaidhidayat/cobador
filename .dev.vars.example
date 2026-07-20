@@ -1,0 +1,24 @@
+# Prefer Worker Secrets for production:
+# wrangler secret put BASE_API_URL
+# wrangler secret put BASE_CIAM_URL
+# wrangler secret put BASIC_AUTH
+# wrangler secret put API_KEY
+# wrangler secret put UA
+# wrangler secret put XDATA_KEY
+# wrangler secret put AX_API_SIG_KEY
+# wrangler secret put X_API_BASE_SECRET
+# wrangler secret put AX_FP_KEY
+# wrangler secret put ENCRYPTED_FIELD_KEY
+# wrangler secret put APP_SESSION_SECRET
+
+BASE_API_URL="https://api.example.invalid"
+BASE_CIAM_URL="https://ciam.example.invalid"
+BASIC_AUTH=""
+API_KEY=""
+UA=""
+XDATA_KEY=""
+AX_API_SIG_KEY=""
+X_API_BASE_SECRET=""
+AX_FP_KEY=""
+ENCRYPTED_FIELD_KEY=""
+APP_SESSION_SECRET="change-me-local-only"

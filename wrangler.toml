@@ -1,0 +1,14 @@
+name = "dordoran-worker"
+main = "src/index.ts"
+compatibility_date = "2026-07-20"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "dordoran_db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[vars]
+APP_VERSION = "8.9.0"
+AX_REQUEST_DEVICE = "samsung"
+AX_REQUEST_DEVICE_MODEL = "SM-N935F"
+AX_SUBSTYPE = "PREPAID"
